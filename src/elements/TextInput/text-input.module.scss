@@ -1,0 +1,33 @@
+.container {
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	box-sizing: border-box;
+}
+
+.input {
+	display: flex;
+	flex-direction: row;
+	flex: 1;
+	box-sizing: border-box;
+	color: #34518B;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	border-width: 1px;
+	border-color: #D0B6B6;
+	background-color: transparent;
+}
+
+input:focus {
+	outline:none!important;
+	border-color: #FF6767;
+}
+
+input:focus + .label {
+	color: #FF6767;
+}
+
+.label {
+	color: #D0B6B6;
+}

@@ -1,0 +1,40 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	background-color: #FF6767;
+	border-top-right-radius: 25px;
+	border-top-left-radius: 25px;
+	padding-top: 30px;
+	padding-left: 35px;
+	padding-right: 35px;
+	box-sizing: border-box;
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+	flex: 1;
+	justify-content: space-between;
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+
+.column {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.smallTitle {
+	font-size: 10px;
+	color: #34518B;
+	font-weight: bold;
+}
+
+.barcodeContainer {
+	background-color: #FFFFFF;
+	border-radius: 50px;
+	padding: 10px 15px;
+}
